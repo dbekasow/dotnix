@@ -49,7 +49,7 @@ build host:
 # Rekey all secrets
 [group('secrets')]
 rekey:
-    nix run .#rekey
+    agenix rekey -a
 
 # Edit a secret
 [group('secrets')]

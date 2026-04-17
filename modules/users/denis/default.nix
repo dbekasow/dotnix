@@ -11,10 +11,9 @@ let hm = self.modules.homeManager; in {
       ];
     };
 
-    homeManager."${user}".imports = with hm; [
-      terminal # shells, tools, multiplexer
-      development # editor, vcs, automation
-    ];
+    homeManager."${user}" = {
+      imports = with hm; [ desktop development terminal ai ];
+    };
 
     generic."${user}".profile = {
       fullname = "Denis Bekasow";
