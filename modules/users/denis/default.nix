@@ -1,6 +1,6 @@
 { self, ... }:
 let hm = self.modules.homeManager; in {
-  flake.modules = let user = "myuser"; in {
+  flake.modules = let user = "denis"; in {
     nixos."${user}" = {
       users.users."${user}" = {
         extraGroups = [ "wheel" "networkmanager" ];
@@ -17,8 +17,8 @@ let hm = self.modules.homeManager; in {
     ];
 
     generic."${user}".profile = {
-      fullname = "Full Name";
-      email = "user@example.com";
+      fullname = "Denis Bekasow";
+      email = "denis.bekasow@gmail.com";
     };
   };
 }
