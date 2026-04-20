@@ -341,11 +341,11 @@
         "treefmt": "treefmt"
       },
       "locked": {
-        "lastModified": 1776946855,
-        "narHash": "sha256-CL6Vlc/+wcukAQ8dhaXmQC50KDbsdy0/85ds4djQNBs=",
+        "lastModified": 1776951996,
+        "narHash": "sha256-1IP+a3PrPYZkHxoentC4wSMhqGHTaHBY31tibplvkzA=",
         "owner": "dbekasow",
         "repo": "dotnix-aspects",
-        "rev": "7267a9300732b1b8e15f6eaa5df89577b0ebe4a2",
+        "rev": "5a22749d1ca61002b54364f26d536869c8f8b0cf",
         "type": "github"
       },
       "original": {
@@ -806,11 +806,11 @@
     },
     "nixos-hardware": {
       "locked": {
-        "lastModified": 1775490113,
-        "narHash": "sha256-2ZBhDNZZwYkRmefK5XLOusCJHnoeKkoN95hoSGgMxWM=",
+        "lastModified": 1776830795,
+        "narHash": "sha256-PAfvLwuHc1VOvsLcpk6+HDKgMEibvZjCNvbM1BJOA7o=",
         "owner": "NixOS",
         "repo": "nixos-hardware",
-        "rev": "c775c2772ba56e906cbeb4e0b2db19079ef11ff7",
+        "rev": "72674a6b5599e844c045ae7449ba91f803d44ebc",
         "type": "github"
       },
       "original": {

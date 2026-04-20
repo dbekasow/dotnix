@@ -3,7 +3,7 @@ let hm = self.modules.homeManager; in {
   flake.modules = let user = "denis"; in {
     nixos."${user}" = {
       users.users."${user}" = {
-        extraGroups = [ "wheel" "networkmanager" ];
+        extraGroups = [ "wheel" "networkmanager" "docker" ];
       };
 
       home-manager.users."${user}".imports = [
@@ -12,7 +12,11 @@ let hm = self.modules.homeManager; in {
     };
 
     homeManager."${user}" = {
-      imports = with hm; [ desktop development terminal ai ];
+      imports = with hm; [
+        # desktop
+        development
+        terminal
+      ];
     };
 
     generic."${user}".profile = {
